@@ -126,7 +126,7 @@ class MailerTest extends TestCase {
 		$this->assertInstanceOf('\OC\Mail\Message', $this->mailer->createMessage());
 	}
 
-	
+
 	public function testSendInvalidMailException() {
 		$this->expectException(\Exception::class);
 
